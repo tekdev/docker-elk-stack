@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# mimicking shell run by Tivoli which invokes a shell that will trigger a set of pipelines in jenkins
+SUCCESS="${1:-"true"}"
+
+printf '%s \n' "mimicking shell run by tivoli and returning jenkins exit code to it"
+
+# if ! RESULT=$(/bin/bash ./jenkins_invoking_shell ${SUCCESS}) ; then
+#
+#   printf '%s \n' "returning exist code ${?} back to Tivoli after a failure"
+#
+# else
+#
+#   printf '%s \n' "returning exist code ${?} back to Tivoli after a successful run"
+#
+# fi
+
+RESULT=$(/bin/bash ./jenkins_invoking_shell ${SUCCESS})
+
+printf '%s \n' "returning exist code ${?} back to Tivoli"

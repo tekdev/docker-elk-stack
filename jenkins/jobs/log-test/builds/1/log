@@ -1,0 +1,15 @@
+Started by user unknown or anonymous
+Building in workspace /var/jenkins_home/jobs/log-test/workspace
+[workspace] $ /bin/bash /tmp/jenkins5530566217148646007.sh
+Jenkins running script and generating log line: 1
+Jenkins running script and generating log line: 2
+Jenkins running script and generating log line: 3
+Jenkins running script and generating log line: 4
+Jenkins running script and generating log line: 5
+Jenkins running script and generating log line: 6
+Jenkins running script and generating log line: 7
+Jenkins running script and generating log line: 8
+Jenkins running script and generating log line: 9
+Jenkins running script and generating log line: 10
+Jenkins job finished successfully 
+Finished: SUCCESS
